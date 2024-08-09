@@ -1,0 +1,17 @@
+.game-square {
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(57, 57, 57, 0.2);
+}
+
+.grass {
+    background-color: rgb(0, 255, 0);
+}
+
+.snake {
+    background-color: rgb(0, 0, 255);
+}
+
+.apple {
+    background-color: rgb(255, 0, 0);
+}
