@@ -7,6 +7,6 @@ interface params {
 
 export default function GameSquare({ role }: params): React.ReactElement {
     return (
-        <div className={`game-square ${role === "Snake" ? "snake" : role === "Apple" ? "apple" : "grass"}`}></div>
+        <div className={`game-square ${role === "Snake" ? "snake" : role === "Apple" ? "apple" : role === "Snake Head" ? "snake-head" : "grass"}`}></div>
     );
 }

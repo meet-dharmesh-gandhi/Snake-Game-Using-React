@@ -1,7 +1,11 @@
 .game-square {
-    width: 20px;
-    height: 20px;
+    min-width: 0.3rem;
+    max-width: 1.2rem;
+    min-height: 0.3rem;
+    max-height: 1.2rem;
+    flex-grow: 1;
     border: 1px solid rgba(57, 57, 57, 0.2);
+    flex-shrink: 1;
 }
 
 .grass {
@@ -14,4 +18,8 @@
 
 .apple {
     background-color: rgb(255, 0, 0);
+}
+
+.snake-head {
+    background-color: rgb(100, 100, 255);
 }
